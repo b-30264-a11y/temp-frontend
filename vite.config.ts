@@ -7,9 +7,7 @@ export default defineConfig({
 
   vite: {
     preview: {
-      allowedHosts: [
-        "temp-frontend-qy8o.onrender.com",
-      ],
+      allowedHosts: true,
     },
   },
 });
